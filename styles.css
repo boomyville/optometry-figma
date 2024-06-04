@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    padding: 12px;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+    background-color: #FFF;
+    font-family: Inter, sans-serif;
+}
+
+header img {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    max-width: 100px;
+}
+
+.title-cwel {
+    color: #84282F;
+    margin-right: 0.5rem;   
+}
+
+.title-cwel, .title-optometry {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.cwel {
+    display: flex;
+    align-items: center;
+}
+
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:visited {
+    color: #000;
+}
+
+nav a:hover {
+    color: #777;
+}
+
+ul.top-nav {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+button.phones {
+    background-color: #84282F;
+    border: none;
+    border-radius: 0.5em;
+    padding: 1rem;
+    color: #FFF;
+}
+button.view-services {
+    background-color: #FAF8F6;
+    border: none;
+    border-radius: 0.5em;
+    padding: 1rem;
+    color: #84282F;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #FAF8F6;
+    min-height: 100vh;
+}
+
+.full-height-grow {
+    display: flex;
+    flex-direction: column;
+}
+
+/* The big main container */
+.home-main {
+padding: 10%;
+display: flex;
+font-family: 'Inter', sans-serif;
+}
+
+.home-left-title p {
+font-size: 64px;
+line-height: 0%;
+color: #84282F;
+}
+
+.home-left-formerly {
+    font-size: 1rem;
+}
+
+.home-left-trusted {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.home-left-list {
+    font-size: 1rem;
+    font-weight: 600;
+}
+.home-left-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.home-right img {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    max-width: 380px;
+}
+
+li.glasses, li.cl, li.cl2, li.eyeball {
+    margin-right: 1rem;
+    margin-bottom: 0.2rem;
+    padding: 0.2rem;
+}
+
+li.glasses {
+    list-style-image: url('images/glasses_small.png');
+}
+
+li.cl {
+    list-style-image: url('images/cl_small.png');
+}
+
+
+li.cl2 {
+    list-style-image: url('images/cl2_small.png');
+}
+
+
+li.eyeball {
+    list-style-image: url('images/eye_small.png');
+}
+
+.home-buttons{
+    padding: 1rem;
+    margin-left: -1rem;
+}
