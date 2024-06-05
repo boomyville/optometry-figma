@@ -5,27 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
     <title>CWel Optometry - Lens Options for Spectacles</title>
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+    <script> 
+        $(function(){
+          $(".top").load("top.html"); 
+        });
+
+        
+        $(function(){
+          $(".services").load("services.html"); 
+        });
+        </script>
 </head>
 <body class="full-height-grow">
-    <header>
-        <div class="container">
-            <div class="cwel">
-            <a href="https://cwel.com.au"><img src="images/logo.png" alt="Cwel Optometry"></a>
-            <span class="title-cwel">C WEL</span>
-            <span class="title-optometry">OPTOMETRY</span>
-                </div>
-            <nav>
-                <ul class="top-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="index.html#book">Contact</a></li>
-                    <li><a href="tel:0398861107"><button type="button" class="phones">(03) 9886 1107</button></a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <div class="top">
+    </div>
     <div class="home-main">
         <div class="details">
         <h1>Optical Lenses</h1>
@@ -49,7 +46,9 @@
     </div>
     </div>
 </div>
+<div class="services">
 
+</div>
     <div class="footer">
         <div class="home-left-list">
             <div class="cwel">

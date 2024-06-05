@@ -4,28 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
+    <meta name="description" content="C Wel Optometry is your local optometrist with all your eyecare needs including in-house glasses fitting, contact lenses, orthokeratology, complex eye disease management, myopia management for children and general optometry services.">
+   
+    <script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
     <title>CWel Optometry</title>
+    <script> 
+        $(function(){
+          $(".top").load("top.html"); 
+        });
+        </script>
 </head>
 <body class="full-height-grow">
-    <header>
-        <div class="container">
-            <div class="cwel">
-            <a href="https://cwel.com.au"><img src="images/logo.png" alt="Cwel Optometry"></a>
-            <span class="title-cwel">C WEL</span>
-            <span class="title-optometry">OPTOMETRY</span>
-                </div>
-            <nav>
-                <ul class="top-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="index.html#book">Contact</a></li>
-                    <li><a href="tel:0398861107"><button type="button" class="phones">(03) 9886 1107</button></a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <div class="top">
+    </div>
+   
     <div class="home-main">
         <div class="home-left">
             <div class="home-left-title">
@@ -42,10 +37,12 @@
                 <div class="home-left-list-left">
                     <li class="glasses"><a href="lenses.html">Spectacles</a></li>
                     <li class="cl"><a href="contactlenses.html">Lenses</a> </li>
+                    <li class="myopia"><a href="myopia.html">Myopia Control</a></li>
                 </div>
                 <div class="home-left-list-right">
                     <li class="cl2"><a href="orthokeratology.html">Orthokeratology</a></li>
                     <li class="eyeball"><a href="eyecare.html">Eyecare</a></li>
+                    <li class="oct"><a href="oct.html">Optical Coherence Tomgoraphy</a></li>
                 </div>
             </div>
             <div class="home-buttons">
@@ -64,20 +61,56 @@
         </div>
     </div>
     <div class="home-main">
-        <div class="home-services">
+        <div class="home-services" id="services">
             <h1>Our services</h1>
             <div class="home-left-list">
             <div class="home-left-list-left">
-                <li class="eyeball"><a href="eyecare.html">Eyecare</a></li>
-                <li class="glasses"><a href="lenses.html">Glasses and Lenses</a></li>
+                <div class="services-container">
+                    <a href="orthokeratology.html"><img src="images/ortho_icon.png"></a>
+                    <div class="services-box">
+                        <a href="orthokeratology.html">Orthokeratology (Ortho-K)</a>
+                        <a href="orthokeratology.html">➜</a>
+                    </div>
+                </div>
+                <div class="services-container">
+                    <a href="contactlenses.html"><img src="images/contacts_icon.png"></a>
+                    <div class="services-box">
+                        <a href="contactlenses.html">Contact Lenses</a>
+                        <a href="contactlenses.html">➜</a>
+                    </div>
+                </div>
             </div>
             <div class="home-left-list-middle">
-                <li class="oct"><a href="oct.html">Optical Coherence Tomography</a></li>
-                <li class="myopia"><a href="myopia.html">Myopia Control</a></li>
+                <div class="services-container">
+                    <a href="eyecare.html"><img src="images/eyecare_icon.png"></a>
+                    <div class="services-box">
+                        <a href="eyecare.html">Eyecare</a>
+                        <a href="eyecare.html">➜</a>
+                    </div>
+                </div>
+                <div class="services-container">
+                    <a href="oct.html"><img src="images/oct_icon.png"></a>
+                    <div class="services-box">
+                        <a href="oct.html">Optical Coherence Tomography</a>
+                        <a href="oct.html">➜</a>
+                    </div>
+                </div>
             </div>
             <div class="home-left-list-right">
-                <li class="cl"><a href="contactlenses.html">Contact Lenses</a></li>
-                <li class="cl2"><a href="orthokeratology.html">Orthokeratology</a></li>
+                <div class="services-container">
+                    <a href="lenses.html"><img src="images/lenses_icon.png"></a>
+                    <div class="services-box">
+                        <a href="lenses.html">Lenses</a>
+                        <a href="lenses.html">➜</a>
+                    </div>
+                </div>
+                <div class="services-container">
+                    <a href="myopia.html"><img src="images/myopia_icon.png"></a>
+                    <div class="services-box">
+                        <a href="myopia.html">Myopia Control</a>
+                        <a href="myopia.html">➜</a>
+                    </div>
+                </div>
             </div>
         </div>
         </div>
@@ -125,17 +158,17 @@
         <div class="home-right-list">
             <div class="home-left-list-left">
                 <div class="tiny-box-left">
-                    <img src="images/phone.png" alt="Phone">
+                    <a href="tel:0398861107"><img src="images/phone.png" alt="Phone"></a>
                     <span class="details">
                     <p>Phone</p>
                     <p><a href="tel:0398861107">(03) 9886 1107</a></p>
                     </span>
                 </div>
                 <div class="tiny-box-right">
-                    <img src="images/mail.png" alt="Email">
+                    <a href="mailto:info@cwel.com.au"><img src="images/mail.png" alt="Email"></a>
                     <span class="details">
                     <p>Email</p>
-                    <p><a href="email:info@cwel.com.au">info@cwel.com.au</a></p>
+                    <p><a href="mail:info@cwel.com.au">info@cwel.com.au</a></p>
                     </span>
 
                 </div>
@@ -143,14 +176,14 @@
             
             <div class="home-left-list-right">
                 <div class="tiny-box-left">
-                    <img src="images/insta.png" alt="Instagram">
+                    <a href="https://www.instagram.com/cweloptom"><img src="images/insta.png" alt="Instagram"></a>
                     <span class="details">
                     <p>Instagram</p>
                     <p><a href="https://www.instagram.com/cweloptom">Message us</a></p>
                     </span>
                 </div>
                 <div class="tiny-box-right">
-                    <img src="images/face.png" alt="Facebook">
+                    <a href="https://www.facebook.com/cweloptom"><img src="images/face.png" alt="Facebook"></a>
                     <span class="details">
                     <p>Facebook</p>
                     <p><a href="https://www.facebook.com/cweloptom">Message us</a></p>
