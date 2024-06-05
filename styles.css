@@ -4,6 +4,21 @@
     box-sizing: border-box;
 }
 
+/* Mobile phone stuff */
+@media (max-width: 960px) {
+  .container, .home-main {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 960px) {
+    .top, .nav, .footer {
+      flex-direction: column;
+      gap: 12px;
+    }
+  }
+
 .container {
     display: flex;
     padding: 12px;
@@ -26,6 +41,7 @@ header img {
 }
 
 .title-cwel {
+    white-space: nowrap;
     color: #84282F;
     margin-right: 0.5rem;   
 }
