@@ -51,16 +51,16 @@ nav a {
     padding: 1rem;
 }
 
-nav a, .tiny-box-left a, .tiny-box-right a {
+nav a, .tiny-box-left a, .tiny-box-right a, .details a, .home-left-list-left a, .home-left-list-right a, .home-left-list-middle a {
     color: #000;
     text-decoration: none;
 }
 
-nav a:visited, .tiny-box-left a:visited, .tiny-box-right a:visited {
+nav a:visited, .tiny-box-left a:visited, .tiny-box-right a:visited, .details a:visited, .home-left-list-left a:visited, .home-left-list-right a:visited, .home-left-list-middle a:visited {
     color: #000;
 }
 
-nav a:hover, .tiny-box-left a:hover, .tiny-box-right a:hover {
+nav a:hover, .tiny-box-left a:hover, .tiny-box-right a:hover, .details a:hover, .home-left-list-left a:hover, .home-left-list-right a:hover, .home-left-list-middle a:hover {
     color: #777;
 }
 
@@ -166,6 +166,15 @@ li.myopia {
 li.oct {
     list-style-image: url('images/oct_small.png');
 }
+
+li.tick {
+    list-style-image: url('images/tick.png');
+}
+
+h2 {
+    color:#84282F;
+}
+
 .home-buttons{
     padding: 1rem;
     margin-left: -1rem;
@@ -236,6 +245,18 @@ h1 {
     justify-content: space-between;
 }
 
+.home-book img {
+    max-height: 90px;
+    width: auto;
+}
+
+.img-container {
+    max-width: 120px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
 .home-left-list-left, .home-left-list-right, .home-left-list-middle {
     padding: 1rem;
 }
@@ -281,7 +302,19 @@ h1 {
     text-align: right;
 }
 
+.home-left-list > .details > a > img {
+    max-width: 180px;
+    max-height: 180px;
+    border-radius: 8%;
+    margin: 1rem;
+}
 
+.home-left-list > .details  {
+    text-align: center;
+}
+.home-main > .details {
+    width: 100%;
+}
 /* Mobile font change */
 
 @media (max-width: 1000px) {
@@ -314,6 +347,11 @@ h1 {
     .home-team img {
         margin-bottom: 1rem;
         width: 100%;
+    }
+
+    .img-container {
+        max-width: 100%;
+        padding: 1rem;
     }
 
     li:has(button) {
@@ -353,10 +391,21 @@ h1 {
         padding: 0px;
     } 
     
-    .details p {
-        text-align: center;
+    .tiny-box-left > .details p, .tiny-box-right > .details p {
+        text-align: right;
     }
     
+    .tiny-box-left, .tiny-box-right {
+        justify-content: space-between;
+    }
+
+    .cwel {
+        justify-content: center;
+    }
+
+    .home-left-list > .details p {
+        text-align: center;
+    }
 
   }
   
