@@ -340,6 +340,12 @@ h1 {
     padding-top: 2rem;
   }
 
+  .kevin {
+    padding: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    text-align: center;
+  }
+
 /* Mobile font change */
 
 @media (max-width: 1000px) {
