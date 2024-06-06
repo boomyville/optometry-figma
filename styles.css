@@ -130,13 +130,15 @@ color: #84282F;
 }
 .services-container {
     display: flex;
-    width: 220px;
+    width: 33vh;
+    height: 140px;
     flex-direction: column;
     border: 2px solid #e8e8e8;
     border-radius: 0.7rem;
     gap: 1rem;
     padding: 1rem;
-    margin: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .services-box {
@@ -492,9 +494,15 @@ h1 {
     .home-book > .home-right-list > *, .home-left-list-left, .home-left-list-middle, .home-left-list-right {
         padding: 0px;
     } 
+
+    .home-services > .home-left-list > * > .services-container {
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+    }
   
     .services-container {
-        width: 90%
+        width: 90%;
+        height: 120px;
     }
 
     .tiny-box-left > .details p, .tiny-box-right > .details p {
