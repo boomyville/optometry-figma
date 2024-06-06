@@ -6,3 +6,5 @@ After my initial Optometry business landing page, I was given feedback to update
 So the client had a professional UX designer craft a website design and then asked me to 'deploy the figma design'.
 
 So I created everything from scratch using the Figma template as a blueprint on how to design the webpage
+
+(Live Demo)[https://boomyville.github.io/optometry-figma]
