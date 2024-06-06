@@ -21,5 +21,7 @@ function shuffle(array) {
   document.querySelectorAll(".details2")[rand[0]].style.display = "none";
   document.querySelectorAll(".details2")[rand[1]].style.display = "none";
   document.querySelectorAll(".details2")[rand[2]].style.display = "none";
-
+  document.querySelectorAll(".details2")[rand[3]].style.display = "block";
+  document.querySelectorAll(".details2")[rand[4]].style.display = "block";
+  document.querySelectorAll(".details2")[rand[5]].style.display = "block";
   
