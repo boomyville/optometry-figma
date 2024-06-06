@@ -335,6 +335,11 @@ h1 {
 .home-main > .details2 {
     width: 100%;
 }
+
+.footer > .home-left-list > .cwel {
+    padding-top: 2rem;
+  }
+
 /* Mobile font change */
 
 @media (max-width: 1000px) {
@@ -381,6 +386,10 @@ h1 {
     .title-cwel, .title-optometry {
       font-size: 1.5rem;
    }
+
+   .times-table {
+    justify-content: space-between;
+   }
    
    nav, .home-left {
     font-size: 0.8rem;
@@ -392,7 +401,6 @@ h1 {
 
     h1 {
         display: flex;
-        justify-content: center;
         font-size: 2rem;
     }
 
@@ -412,12 +420,12 @@ h1 {
         max-width: 35%;
         margin: 1rem;
     }
-    .home-book > .home-right-list > *, .home-left-list-left, .home-left-list-middle, .home-left-list-right, .footer {
+    .home-book > .home-right-list > *, .home-left-list-left, .home-left-list-middle, .home-left-list-right {
         padding: 0px;
     } 
   
     .services-container {
-        width: 100%
+        width: 90%
     }
 
     .tiny-box-left > .details p, .tiny-box-right > .details p {
