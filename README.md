@@ -7,4 +7,4 @@ So the client had a professional UX designer craft a website design and then ask
 
 So I created everything from scratch using the Figma template as a blueprint on how to design the webpage
 
-(Live Demo)[https://boomyville.github.io/optometry-figma]
+[Live Demo](https://boomyville.github.io/optometry-figma)
