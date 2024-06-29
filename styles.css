@@ -77,9 +77,12 @@ button.phones {
     background-color: #84282F;
     border: none;
     border-radius: 0.5em;
-    padding: 1rem;
+    padding: 1rem
+}
+button.phones a {
     color: #FFF;
 }
+
 button.view-services {
     background-color: #FAF8F6;
     border: none;
