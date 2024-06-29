@@ -81,6 +81,11 @@ button.phones {
 }
 button.phones a {
     color: #FFF;
+    text-decoration: none;
+}
+
+button.phomes a:hover {
+    color: #777;
 }
 
 button.view-services {
